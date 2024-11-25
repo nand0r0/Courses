@@ -1,3 +1,5 @@
+//creates a user profile from the inputted details, and scans them if theyre valid, otherwise it outputs an error. the details can be changed through the scan.
+
 class UserProfile {
     constructor(username, email, birthdate) {
         this._username = this.scanUsername(username);

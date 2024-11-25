@@ -388,3 +388,42 @@ class UserProfile {
     }
 }
 */
+
+/*
+//impure, which means it changes the original value
+const colors = ["red", "orange"];
+function addToArray(arr, value) {
+    return arr.push(value);
+}
+
+//pure, which means it doesnt change the input value, it just outputs the changed one
+function pureAddToArray(arr, value) {
+    return [...arr, value];
+}
+*/
+
+/*
+//functions can use other functions as an argument
+function mutliplyBy(factor) {
+    return function(number) {
+        return number * factor;
+    }
+}
+
+const triple = mutliplyBy(3);
+const double = mutliplyBy(2);
+*/
+
+/*
+//object.freeze() forbids further changes to the inputted object. this means after i execute it, i cannot change that object anymore, i can only read it.
+const person = {name: "kitler", age: 10};
+Object.freeze(person);
+*/
+
+/*
+//recursion
+function factorial(n) {
+    if(n <= 1) return 1;
+    return n * factorial(n-1);
+}
+*/

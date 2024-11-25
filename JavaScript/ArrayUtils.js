@@ -1,3 +1,5 @@
+//can take the average and the maximum of the inputted array
+
 class ArrayUtils {
     constructor() {
         throw new Error('ArrayUtils cannot be instantiated.');
